@@ -1,0 +1,108 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.body {
+  background-color: #292c35;
+}
+
+#navBar {
+  background-color: #292c35;
+}
+
+ul li {
+  position: relative;
+}
+
+ul li::after {
+  content: " ";
+  width: 0;
+  height: 2px;
+  background-color: #e4d00a;
+  position: absolute;
+  bottom: 15%;
+  left: 0;
+  transition: 0.5s;
+}
+
+ul li:hover::after {
+  width: 100%;
+}
+
+.banner {
+  background-image: url("Images/Hero1-copy.jpg");
+  height: 100vh;
+  background-size: cover;
+  position: relative;
+  margin-bottom: 90px;
+}
+.bannerOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #0000005a;
+  width: 100%;
+  height: 100%;
+}
+
+.bannerContent {
+  position: absolute;
+  transform: translate(-50%, 0);
+  top: 50%;
+  left: 50%;
+}
+
+.bannerContent h1 {
+  font-size: 50px;
+}
+
+section hr {
+  margin-top: 100px;
+  margin-bottom: 70px;
+}
+section h1 {
+  font-size: 45px;
+}
+
+.button:hover {
+  width: 200px;
+  scale: 120%;
+  transition: 0.5s;
+}
+
+.serviceImage {
+  border-radius: 30px;
+}
+.serviceImage:hover {
+  scale: 120%;
+  transition: 0.5s;
+  border-radius: 100px;
+}
+
+.hr-theme-slash-2 {
+  display: flex;
+}
+
+.hr-line {
+  width: 100%;
+  position: relative;
+  margin: 15px;
+  border-bottom: 1px solid #e1e0e0;
+}
+.hr-icon {
+  position: relative;
+  top: 0px;
+  color: #ffc107;
+}
+
+figure figcaption img {
+  width: 60px;
+  height: 30px;
+  border-radius: 100px;
+  margin-right: 7px;
+}
+
+footer {
+  margin-top: 100px;
+}
