@@ -65,6 +65,10 @@ section h1 {
   font-size: 45px;
 }
 
+button {
+  transition: 0.5s;
+}
+
 .button:hover {
   width: 200px;
   scale: 120%;
